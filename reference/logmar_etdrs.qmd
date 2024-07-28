@@ -1,0 +1,38 @@
+# logmar_etdrs { #test_eyepy.logmar_etdrs }
+
+`logmar_etdrs`
+
+
+
+## Functions
+
+| Name | Description |
+| --- | --- |
+| [logmar_to_etdrs](#test_eyepy.logmar_etdrs.logmar_to_etdrs) | Convert LogMAR to ETDRS |
+
+### logmar_to_etdrs { #test_eyepy.logmar_etdrs.logmar_to_etdrs }
+
+`logmar_etdrs.logmar_to_etdrs(logmar)`
+
+Convert LogMAR to ETDRS
+
+#### Parameters
+
+| Name     | Type   | Description                          | Default    |
+|----------|--------|--------------------------------------|------------|
+| `logmar` | float  | Visual acuity in **LogMAR** notation | _required_ |
+
+#### Returns
+
+| Type   | Description                   |
+|--------|-------------------------------|
+| int    | The corresponding ETDRS score |
+
+#### Examples
+
+```python
+>>> logmar = 0.3
+>>> etdrs = logmar_to_etdrs(logmar)
+>>> print(etdrs)
+70
+```

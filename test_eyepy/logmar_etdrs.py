@@ -8,7 +8,7 @@ def logmar_to_etdrs(logmar: float) -> int:
     Returns:
         int: The corresponding ETDRS score
         
-    Example:
+    Examples:
         >>> logmar = 0.3
         >>> etdrs = logmar_to_etdrs(logmar)
         >>> print(etdrs)

@@ -1,0 +1,9 @@
+website:
+  sidebar:
+  - contents:
+    - reference/index.qmd
+    - contents:
+      - reference/logmar_etdrs.qmd
+      section: VA conversions
+    id: reference
+  - id: dummy-sidebar
